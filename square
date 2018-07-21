@@ -1,0 +1,19 @@
+a=int(input("enter the side of square"))
+for x in range(1,a+1):
+ if x==1 or x==a:
+  for y in range(1,a+1):
+   print("*",end=' ')
+  print()
+ else:
+  print("*",end=' ')
+  for z in range(2,a):
+   print(' ',end=' ')
+  print("*")   
+   
+   
+ #       * * * *
+ #       *     *
+ #       *     *
+ #       * * * *
+
+ 
