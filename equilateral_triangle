@@ -1,0 +1,19 @@
+a=int(input("enter height of right angled triangle"))
+for x in range(1,a+1):
+ for y in range(a-x,0,-1):
+  print(" ",end="")
+ if x==1:
+  print("*",end="")
+ else: 
+  for z in range(1,2*x,1): 
+   print("*",end="")
+ print() 
+ 
+ 
+ 
+ 
+#       *
+#      ***
+#     *****
+#    *******
+#   *********
