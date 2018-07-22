@@ -1,0 +1,17 @@
+a=int(input("input height: "))
+for x in range(a):
+ for y in range(x):
+  print(' ',end='')
+ for z in range(a-x):
+  print("*",end='')
+ print()  
+ 
+ 
+ 
+ 
+#    ******
+#     *****
+#      ****
+#       ***
+#        **
+#         *
