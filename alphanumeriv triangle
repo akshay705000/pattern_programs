@@ -1,0 +1,28 @@
+a=int(input("enter height of right angled triangle"))
+l=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+for x in range(1,a+1):
+ n=0
+ m=0
+ for y in range(a-x,0,-1):
+  print(" ",end="")
+ if x==1:
+  print("1",end="")
+ else: 
+  for z in range(1,2*x,1): 
+   if z <= x:
+    n=n+1
+    print(n,end="")
+   else:
+    print(l[m],end="")
+    m=m+1
+ print() 	 
+	 
+	 
+#           1
+#          12A
+#         123AB
+#        1234ABC
+#       12345ABCD
+#      123456ABCDE
+#     1234567ABCDEF
+#    12345678ABCDEFG
